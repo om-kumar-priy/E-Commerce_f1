@@ -1,0 +1,192 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* Navbar */
+.navbar{
+  position: sticky;
+  top: 0;
+}
+.list-1{
+  margin-left: 250px;
+}
+.list-2{
+  margin-left: 350px;
+}
+.nav-item{
+  font-family: Rubik;
+}
+.home{
+  color: #FF5151 !important;
+}
+/* Hero Section */
+.hero{
+  width: 95vw;
+  height: 80vh;
+  margin-inline: auto;
+  border-radius: 20px;
+  position: relative;
+  background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+}
+.hero-text{
+  position: absolute;
+  left: 107px;
+  top: 100px;
+}
+.hero-button{
+  position: absolute;
+  top: 45vh;
+  left: 6vw;
+}
+.hero-img{
+  width: 31vw;
+  position: absolute;
+  left: 64vw;
+  bottom: 0;
+}
+/* Collection Component */
+.heading{
+  width: 8vw;
+}
+.collection{
+  width: 60vw;
+  height: 30vh;
+}
+.collection-button{
+  Width: 130px;
+  padding-top: 15px;
+  border: none;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
+  font-weight: 900;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(180deg, rgba(255, 81, 81, 0.5) 0%, #ff3b2d 100%);
+  font-family: Rubik;
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+}
+.collection-button:hover{
+  transform: scale(1.2);
+}
+.collection-card{
+  width: 90vw;
+}
+.card1{
+  width: 253px;
+  height: 400px;
+}
+.collectionimage{
+  width: 251px;
+  height: 252px;
+  border-radius: 25px;
+  background: linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
+}
+.collectiontext{
+  padding-left: 15px;
+  margin-top: 3vh;
+}
+.collectionprice, .collectioncard{
+  padding-left: 15px;
+}
+/* New Arrival */
+.newarrival-section{
+  width: 90vw;
+  margin:auto;
+}
+.new-arrival-img1{
+  width: 40w;
+}
+.new-arrival-img2{
+  width: 45vw;
+}
+.newarrival-img1 , .newarrival-img2{
+  margin-top: 20px;
+  width: 90%;
+}
+.newarrival-img3{
+  margin-left: 40px;
+  width: 90%;
+}
+/* Categories */
+.category{
+  width: 90vw;
+}
+.card2{
+  Width:280px;
+  height: 300px;
+  border-radius: 25px;
+  border: 0.5px solid rgba(144, 144, 144, 0.25);
+  background: #F0F0F0;
+  margin-top: 10px;
+}
+.card2 .image{
+  width: 168px;
+  height: 180px;
+  margin-left: 50px;
+}
+/* Footer section */
+
+.footer{
+  justify-content: space-around;
+  padding-top: 5%;
+}
+#bttext{
+  color: #4F5665;
+  font-family: Rubik;
+  font-size: 0.9rem;
+  line-height: 1.875rem; /* 187.5% */
+  width: 15.875rem;
+}
+#bttext2{
+  color: #FF5E3A;
+  font-family: Rubik;
+  font-size: 0.9rem;
+  line-height: 1.875rem; /* 187.5% */
+  width: 15.875rem;
+}
+.table-1{
+  padding: 0.3rem;
+  font-size: 1.5rem;
+}
+.table-1>thead{
+  font-weight: 700;
+}
+.table-1>tbody{
+  color: #4F5665;
+  font-family: Rubik;
+  font-size: 1rem;
+  line-height: 1.875rem;
+}
+.cell{
+  gap: 0.5rem;
+  align-items: center;
+}
+.conlogo{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ff5e3a;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+  padding-right: 0.5px;
+}
+.conlogo>img{
+  width: 20px;
+  height: 20px;
+}
+.color{
+  background-color: #FBF3EB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
